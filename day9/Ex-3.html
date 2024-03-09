@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .box{
+            border: 1px solid;
+            text-align: center;
+        }
+        .cantainer{
+            display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+            width: 50%;
+            height: 500px;
+        }
+        .cantainer > :nth-child(5){
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 10px;
+        }
+        .cantainer > :nth-child(5) div{
+            border: 1px solid;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="cantainer">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">
+            <div>5.1</div>
+            <div>5.2</div>
+            <div>5.3</div>
+        </div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+    </div>
+</body>
+</html>
