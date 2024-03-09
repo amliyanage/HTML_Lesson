@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+
+        .main-box{
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            border: 2px solid black;
+
+            text-align: center;
+            font-size: 100px;
+            border-radius: 20px;
+            color: white;
+        }
+
+        .main-box > :nth-child(2){
+            background-color: greenyellow;
+        }
+
+        .main-box > :nth-child(3){
+            background-color: blueviolet;
+        }
+
+        .main-box > :nth-child(4){
+            background-color: rgb(0, 57, 59);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+    </div>
+</body>
+</html>
