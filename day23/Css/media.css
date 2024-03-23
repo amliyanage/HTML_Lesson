@@ -1,0 +1,13 @@
+h1{
+    color: rgb(79, 149, 255);
+    font-family: "Arial", sans-serif;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: "Arial", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
