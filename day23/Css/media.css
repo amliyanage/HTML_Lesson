@@ -1,0 +1,20 @@
+h1{
+    color: rgb(79, 149, 255);
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        color: rgb(70, 252, 70);
+        font-family: "Arial", sans-serif;
+    }
+}
