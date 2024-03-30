@@ -4,4 +4,4 @@ console.log(typeof example);
 
 example = "Hello World";
 
-console.log(typeof example);
+console.log(typeof example); 
